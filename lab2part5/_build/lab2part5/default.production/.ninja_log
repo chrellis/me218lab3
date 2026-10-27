@@ -1,0 +1,13 @@
+# ninja log v7
+2	53	1793136697115217644	CMakeFiles/lab2part5_default_default_XC32_compile.dir/Users/chenaultellis/MPLABProjects/lab2part5/Lab2DriverMain.c.o	e84648180da9061
+2	72	1793136697115516062	CMakeFiles/lab2part5_default_default_XC32_compile.dir/Users/chenaultellis/MPLABProjects/lab2part5/PIC32_SPI_HAL_Starter.c.o	ee7c5bdf3a9f3396
+72	157	1793136697184685893	/Users/chenaultellis/MPLABProjects/lab2part5/out/lab2part5/production/default-production.elf	d61fa098444e4590
+157	169	1793136697270277097	CMakeFiles/lab2part5_default_Bin2Hex	8179bb2b003d4bb1
+157	169	1793136697270277097	/Users/chenaultellis/MPLABProjects/lab2part5/out/lab2part5/production/default-production.hex	8179bb2b003d4bb1
+157	169	1793136697270277097	/Users/chenaultellis/MPLABProjects/lab2part5/_build/lab2part5/default.production/CMakeFiles/lab2part5_default_Bin2Hex	8179bb2b003d4bb1
+2	73	1793137055507783469	CMakeFiles/lab2part5_default_default_XC32_compile.dir/Users/chenaultellis/MPLABProjects/lab2part5/Lab2DriverMain.c.o	e84648180da9061
+2	103	1793137055508070386	CMakeFiles/lab2part5_default_default_XC32_compile.dir/Users/chenaultellis/MPLABProjects/lab2part5/PIC32_SPI_HAL_Starter.c.o	ee7c5bdf3a9f3396
+103	273	1793137055609124502	/Users/chenaultellis/MPLABProjects/lab2part5/out/lab2part5/production/default-production.elf	d61fa098444e4590
+273	289	1793137055779028156	CMakeFiles/lab2part5_default_Bin2Hex	8179bb2b003d4bb1
+273	289	1793137055779028156	/Users/chenaultellis/MPLABProjects/lab2part5/out/lab2part5/production/default-production.hex	8179bb2b003d4bb1
+273	289	1793137055779028156	/Users/chenaultellis/MPLABProjects/lab2part5/_build/lab2part5/default.production/CMakeFiles/lab2part5_default_Bin2Hex	8179bb2b003d4bb1

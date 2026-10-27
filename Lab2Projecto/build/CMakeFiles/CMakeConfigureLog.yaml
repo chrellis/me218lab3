@@ -1,0 +1,1864 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    searched_directories:
+      - "/Users/chenaultellis/.gemini/antigravity/bin/uname"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/uname"
+      - "/Users/chenaultellis/.juliaup/bin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:213 (message)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      The target system is: Generic -  - mips
+      The host system is: Darwin - 25.3.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    searched_directories:
+      - "/Users/chenaultellis/.gemini/antigravity/bin/gmake"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/gmake"
+      - "/Users/chenaultellis/.juliaup/bin/gmake"
+      - "/opt/homebrew/bin/gmake"
+      - "/opt/homebrew/sbin/gmake"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/System/Cryptexes/App/usr/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/opt/pmk/env/global/bin/gmake"
+      - "/opt/X11/bin/gmake"
+      - "/Library/Apple/usr/bin/gmake"
+      - "/Applications/microchip/xc32/v6.00/bin/gmake"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/gmake"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/make"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/make"
+      - "/Users/chenaultellis/.juliaup/bin/make"
+      - "/opt/homebrew/bin/make"
+      - "/opt/homebrew/sbin/make"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/make"
+      - "/usr/local/bin/make"
+      - "/System/Cryptexes/App/usr/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Applications/microchip/xc32/v6.00/bin/xc32-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      /Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400018
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /Users/chenaultellis/MPLABProjects/Lab2Projecto/build/CMakeFiles/4.4.4/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xc32-ar"
+      - "ar"
+    candidate_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    found: "/Applications/microchip/xc32/v6.00/bin/xc32-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xc32-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    found: "/Applications/microchip/xc32/v6.00/bin/xc32-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xc32-strip"
+      - "strip"
+    candidate_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    found: "/Applications/microchip/xc32/v6.00/bin/xc32-strip"
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xc32-ld"
+      - "ld"
+    candidate_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    found: "/Applications/microchip/xc32/v6.00/bin/xc32-ld"
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xc32-nm"
+      - "nm"
+    candidate_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    found: "/Applications/microchip/xc32/v6.00/bin/xc32-nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xc32-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    found: "/Applications/microchip/xc32/v6.00/bin/xc32-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xc32-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    found: "/Applications/microchip/xc32/v6.00/bin/xc32-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xc32-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    found: "/Applications/microchip/xc32/v6.00/bin/xc32-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xc32-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    searched_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-dlltool"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-dlltool"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-dlltool"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-dlltool"
+      - "/opt/homebrew/bin/xc32-dlltool"
+      - "/opt/homebrew/sbin/xc32-dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-dlltool"
+      - "/usr/local/bin/xc32-dlltool"
+      - "/System/Cryptexes/App/usr/bin/xc32-dlltool"
+      - "/usr/bin/xc32-dlltool"
+      - "/bin/xc32-dlltool"
+      - "/usr/sbin/xc32-dlltool"
+      - "/sbin/xc32-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-dlltool"
+      - "/opt/pmk/env/global/bin/xc32-dlltool"
+      - "/opt/X11/bin/xc32-dlltool"
+      - "/Library/Apple/usr/bin/xc32-dlltool"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-dlltool"
+      - "/Applications/microchip/xc32/v6.00/bin/dlltool"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/dlltool"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/dlltool"
+      - "/Users/chenaultellis/.juliaup/bin/dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/opt/pmk/env/global/bin/dlltool"
+      - "/opt/X11/bin/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xc32-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    found: "/Applications/microchip/xc32/v6.00/bin/xc32-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xc32-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    searched_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-tapi"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-tapi"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-tapi"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-tapi"
+      - "/opt/homebrew/bin/xc32-tapi"
+      - "/opt/homebrew/sbin/xc32-tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-tapi"
+      - "/usr/local/bin/xc32-tapi"
+      - "/System/Cryptexes/App/usr/bin/xc32-tapi"
+      - "/usr/bin/xc32-tapi"
+      - "/bin/xc32-tapi"
+      - "/usr/sbin/xc32-tapi"
+      - "/sbin/xc32-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-tapi"
+      - "/opt/pmk/env/global/bin/xc32-tapi"
+      - "/opt/X11/bin/xc32-tapi"
+      - "/Library/Apple/usr/bin/xc32-tapi"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-tapi"
+      - "/Applications/microchip/xc32/v6.00/bin/tapi"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/tapi"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/tapi"
+      - "/Users/chenaultellis/.juliaup/bin/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/opt/homebrew/sbin/tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/opt/pmk/env/global/bin/tapi"
+      - "/opt/X11/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xc32-gcc-ar-13.2"
+      - "xc32-gcc-ar-13"
+      - "xc32-gcc-ar13"
+      - "xc32-gcc-ar"
+    candidate_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    searched_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc-ar-13.2"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-gcc-ar-13.2"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-gcc-ar-13.2"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-gcc-ar-13.2"
+      - "/opt/homebrew/bin/xc32-gcc-ar-13.2"
+      - "/opt/homebrew/sbin/xc32-gcc-ar-13.2"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-gcc-ar-13.2"
+      - "/usr/local/bin/xc32-gcc-ar-13.2"
+      - "/System/Cryptexes/App/usr/bin/xc32-gcc-ar-13.2"
+      - "/usr/bin/xc32-gcc-ar-13.2"
+      - "/bin/xc32-gcc-ar-13.2"
+      - "/usr/sbin/xc32-gcc-ar-13.2"
+      - "/sbin/xc32-gcc-ar-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-gcc-ar-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-gcc-ar-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-gcc-ar-13.2"
+      - "/opt/pmk/env/global/bin/xc32-gcc-ar-13.2"
+      - "/opt/X11/bin/xc32-gcc-ar-13.2"
+      - "/Library/Apple/usr/bin/xc32-gcc-ar-13.2"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-gcc-ar-13.2"
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc-ar-13"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-gcc-ar-13"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-gcc-ar-13"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-gcc-ar-13"
+      - "/opt/homebrew/bin/xc32-gcc-ar-13"
+      - "/opt/homebrew/sbin/xc32-gcc-ar-13"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-gcc-ar-13"
+      - "/usr/local/bin/xc32-gcc-ar-13"
+      - "/System/Cryptexes/App/usr/bin/xc32-gcc-ar-13"
+      - "/usr/bin/xc32-gcc-ar-13"
+      - "/bin/xc32-gcc-ar-13"
+      - "/usr/sbin/xc32-gcc-ar-13"
+      - "/sbin/xc32-gcc-ar-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-gcc-ar-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-gcc-ar-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-gcc-ar-13"
+      - "/opt/pmk/env/global/bin/xc32-gcc-ar-13"
+      - "/opt/X11/bin/xc32-gcc-ar-13"
+      - "/Library/Apple/usr/bin/xc32-gcc-ar-13"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-gcc-ar-13"
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc-ar13"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-gcc-ar13"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-gcc-ar13"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-gcc-ar13"
+      - "/opt/homebrew/bin/xc32-gcc-ar13"
+      - "/opt/homebrew/sbin/xc32-gcc-ar13"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-gcc-ar13"
+      - "/usr/local/bin/xc32-gcc-ar13"
+      - "/System/Cryptexes/App/usr/bin/xc32-gcc-ar13"
+      - "/usr/bin/xc32-gcc-ar13"
+      - "/bin/xc32-gcc-ar13"
+      - "/usr/sbin/xc32-gcc-ar13"
+      - "/sbin/xc32-gcc-ar13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-gcc-ar13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-gcc-ar13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-gcc-ar13"
+      - "/opt/pmk/env/global/bin/xc32-gcc-ar13"
+      - "/opt/X11/bin/xc32-gcc-ar13"
+      - "/Library/Apple/usr/bin/xc32-gcc-ar13"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-gcc-ar13"
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc-ar"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-gcc-ar"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-gcc-ar"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-gcc-ar"
+      - "/opt/homebrew/bin/xc32-gcc-ar"
+      - "/opt/homebrew/sbin/xc32-gcc-ar"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-gcc-ar"
+      - "/usr/local/bin/xc32-gcc-ar"
+      - "/System/Cryptexes/App/usr/bin/xc32-gcc-ar"
+      - "/usr/bin/xc32-gcc-ar"
+      - "/bin/xc32-gcc-ar"
+      - "/usr/sbin/xc32-gcc-ar"
+      - "/sbin/xc32-gcc-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-gcc-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-gcc-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-gcc-ar"
+      - "/opt/pmk/env/global/bin/xc32-gcc-ar"
+      - "/opt/X11/bin/xc32-gcc-ar"
+      - "/Library/Apple/usr/bin/xc32-gcc-ar"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-gcc-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xc32-gcc-ranlib-13.2"
+      - "xc32-gcc-ranlib-13"
+      - "xc32-gcc-ranlib13"
+      - "xc32-gcc-ranlib"
+    candidate_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    searched_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc-ranlib-13.2"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-gcc-ranlib-13.2"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-gcc-ranlib-13.2"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-gcc-ranlib-13.2"
+      - "/opt/homebrew/bin/xc32-gcc-ranlib-13.2"
+      - "/opt/homebrew/sbin/xc32-gcc-ranlib-13.2"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-gcc-ranlib-13.2"
+      - "/usr/local/bin/xc32-gcc-ranlib-13.2"
+      - "/System/Cryptexes/App/usr/bin/xc32-gcc-ranlib-13.2"
+      - "/usr/bin/xc32-gcc-ranlib-13.2"
+      - "/bin/xc32-gcc-ranlib-13.2"
+      - "/usr/sbin/xc32-gcc-ranlib-13.2"
+      - "/sbin/xc32-gcc-ranlib-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-gcc-ranlib-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-gcc-ranlib-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-gcc-ranlib-13.2"
+      - "/opt/pmk/env/global/bin/xc32-gcc-ranlib-13.2"
+      - "/opt/X11/bin/xc32-gcc-ranlib-13.2"
+      - "/Library/Apple/usr/bin/xc32-gcc-ranlib-13.2"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-gcc-ranlib-13.2"
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc-ranlib-13"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-gcc-ranlib-13"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-gcc-ranlib-13"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-gcc-ranlib-13"
+      - "/opt/homebrew/bin/xc32-gcc-ranlib-13"
+      - "/opt/homebrew/sbin/xc32-gcc-ranlib-13"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-gcc-ranlib-13"
+      - "/usr/local/bin/xc32-gcc-ranlib-13"
+      - "/System/Cryptexes/App/usr/bin/xc32-gcc-ranlib-13"
+      - "/usr/bin/xc32-gcc-ranlib-13"
+      - "/bin/xc32-gcc-ranlib-13"
+      - "/usr/sbin/xc32-gcc-ranlib-13"
+      - "/sbin/xc32-gcc-ranlib-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-gcc-ranlib-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-gcc-ranlib-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-gcc-ranlib-13"
+      - "/opt/pmk/env/global/bin/xc32-gcc-ranlib-13"
+      - "/opt/X11/bin/xc32-gcc-ranlib-13"
+      - "/Library/Apple/usr/bin/xc32-gcc-ranlib-13"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-gcc-ranlib-13"
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc-ranlib13"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-gcc-ranlib13"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-gcc-ranlib13"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-gcc-ranlib13"
+      - "/opt/homebrew/bin/xc32-gcc-ranlib13"
+      - "/opt/homebrew/sbin/xc32-gcc-ranlib13"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-gcc-ranlib13"
+      - "/usr/local/bin/xc32-gcc-ranlib13"
+      - "/System/Cryptexes/App/usr/bin/xc32-gcc-ranlib13"
+      - "/usr/bin/xc32-gcc-ranlib13"
+      - "/bin/xc32-gcc-ranlib13"
+      - "/usr/sbin/xc32-gcc-ranlib13"
+      - "/sbin/xc32-gcc-ranlib13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-gcc-ranlib13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-gcc-ranlib13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-gcc-ranlib13"
+      - "/opt/pmk/env/global/bin/xc32-gcc-ranlib13"
+      - "/opt/X11/bin/xc32-gcc-ranlib13"
+      - "/Library/Apple/usr/bin/xc32-gcc-ranlib13"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-gcc-ranlib13"
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc-ranlib"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-gcc-ranlib"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-gcc-ranlib"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-gcc-ranlib"
+      - "/opt/homebrew/bin/xc32-gcc-ranlib"
+      - "/opt/homebrew/sbin/xc32-gcc-ranlib"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-gcc-ranlib"
+      - "/usr/local/bin/xc32-gcc-ranlib"
+      - "/System/Cryptexes/App/usr/bin/xc32-gcc-ranlib"
+      - "/usr/bin/xc32-gcc-ranlib"
+      - "/bin/xc32-gcc-ranlib"
+      - "/usr/sbin/xc32-gcc-ranlib"
+      - "/sbin/xc32-gcc-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-gcc-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-gcc-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-gcc-ranlib"
+      - "/opt/pmk/env/global/bin/xc32-gcc-ranlib"
+      - "/opt/X11/bin/xc32-gcc-ranlib"
+      - "/Library/Apple/usr/bin/xc32-gcc-ranlib"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-gcc-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:61 (_cmake_find_compiler)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER"
+    description: "ASM compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc"
+    candidate_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/"
+    found: "/Applications/microchip/xc32/v6.00/bin/xc32-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1328 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:174 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      pic32m-gcc (Microchip XC32 Compiler v6.00) 13.2.1 20231009 Build date: Jun 23 2026
+      Copyright (C) 2023 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:271 (include)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xc32-gcc-ar-"
+      - "xc32-gcc-ar-"
+      - "xc32-gcc-ar"
+      - "xc32-gcc-ar"
+    candidate_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    searched_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc-ar-"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-gcc-ar-"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-gcc-ar-"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-gcc-ar-"
+      - "/opt/homebrew/bin/xc32-gcc-ar-"
+      - "/opt/homebrew/sbin/xc32-gcc-ar-"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-gcc-ar-"
+      - "/usr/local/bin/xc32-gcc-ar-"
+      - "/System/Cryptexes/App/usr/bin/xc32-gcc-ar-"
+      - "/usr/bin/xc32-gcc-ar-"
+      - "/bin/xc32-gcc-ar-"
+      - "/usr/sbin/xc32-gcc-ar-"
+      - "/sbin/xc32-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-gcc-ar-"
+      - "/opt/pmk/env/global/bin/xc32-gcc-ar-"
+      - "/opt/X11/bin/xc32-gcc-ar-"
+      - "/Library/Apple/usr/bin/xc32-gcc-ar-"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-gcc-ar-"
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc-ar-"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-gcc-ar-"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-gcc-ar-"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-gcc-ar-"
+      - "/opt/homebrew/bin/xc32-gcc-ar-"
+      - "/opt/homebrew/sbin/xc32-gcc-ar-"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-gcc-ar-"
+      - "/usr/local/bin/xc32-gcc-ar-"
+      - "/System/Cryptexes/App/usr/bin/xc32-gcc-ar-"
+      - "/usr/bin/xc32-gcc-ar-"
+      - "/bin/xc32-gcc-ar-"
+      - "/usr/sbin/xc32-gcc-ar-"
+      - "/sbin/xc32-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-gcc-ar-"
+      - "/opt/pmk/env/global/bin/xc32-gcc-ar-"
+      - "/opt/X11/bin/xc32-gcc-ar-"
+      - "/Library/Apple/usr/bin/xc32-gcc-ar-"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-gcc-ar-"
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc-ar"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-gcc-ar"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-gcc-ar"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-gcc-ar"
+      - "/opt/homebrew/bin/xc32-gcc-ar"
+      - "/opt/homebrew/sbin/xc32-gcc-ar"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-gcc-ar"
+      - "/usr/local/bin/xc32-gcc-ar"
+      - "/System/Cryptexes/App/usr/bin/xc32-gcc-ar"
+      - "/usr/bin/xc32-gcc-ar"
+      - "/bin/xc32-gcc-ar"
+      - "/usr/sbin/xc32-gcc-ar"
+      - "/sbin/xc32-gcc-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-gcc-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-gcc-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-gcc-ar"
+      - "/opt/pmk/env/global/bin/xc32-gcc-ar"
+      - "/opt/X11/bin/xc32-gcc-ar"
+      - "/Library/Apple/usr/bin/xc32-gcc-ar"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-gcc-ar"
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc-ar"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-gcc-ar"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-gcc-ar"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-gcc-ar"
+      - "/opt/homebrew/bin/xc32-gcc-ar"
+      - "/opt/homebrew/sbin/xc32-gcc-ar"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-gcc-ar"
+      - "/usr/local/bin/xc32-gcc-ar"
+      - "/System/Cryptexes/App/usr/bin/xc32-gcc-ar"
+      - "/usr/bin/xc32-gcc-ar"
+      - "/bin/xc32-gcc-ar"
+      - "/usr/sbin/xc32-gcc-ar"
+      - "/sbin/xc32-gcc-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-gcc-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-gcc-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-gcc-ar"
+      - "/opt/pmk/env/global/bin/xc32-gcc-ar"
+      - "/opt/X11/bin/xc32-gcc-ar"
+      - "/Library/Apple/usr/bin/xc32-gcc-ar"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-gcc-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:271 (include)"
+      - "CMakeLists.txt:19 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xc32-gcc-ranlib-"
+      - "xc32-gcc-ranlib-"
+      - "xc32-gcc-ranlib"
+      - "xc32-gcc-ranlib"
+    candidate_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/"
+      - "/Users/chenaultellis/.juliaup/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/"
+    searched_directories:
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc-ranlib-"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-gcc-ranlib-"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-gcc-ranlib-"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-gcc-ranlib-"
+      - "/opt/homebrew/bin/xc32-gcc-ranlib-"
+      - "/opt/homebrew/sbin/xc32-gcc-ranlib-"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-gcc-ranlib-"
+      - "/usr/local/bin/xc32-gcc-ranlib-"
+      - "/System/Cryptexes/App/usr/bin/xc32-gcc-ranlib-"
+      - "/usr/bin/xc32-gcc-ranlib-"
+      - "/bin/xc32-gcc-ranlib-"
+      - "/usr/sbin/xc32-gcc-ranlib-"
+      - "/sbin/xc32-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-gcc-ranlib-"
+      - "/opt/pmk/env/global/bin/xc32-gcc-ranlib-"
+      - "/opt/X11/bin/xc32-gcc-ranlib-"
+      - "/Library/Apple/usr/bin/xc32-gcc-ranlib-"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-gcc-ranlib-"
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc-ranlib-"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-gcc-ranlib-"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-gcc-ranlib-"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-gcc-ranlib-"
+      - "/opt/homebrew/bin/xc32-gcc-ranlib-"
+      - "/opt/homebrew/sbin/xc32-gcc-ranlib-"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-gcc-ranlib-"
+      - "/usr/local/bin/xc32-gcc-ranlib-"
+      - "/System/Cryptexes/App/usr/bin/xc32-gcc-ranlib-"
+      - "/usr/bin/xc32-gcc-ranlib-"
+      - "/bin/xc32-gcc-ranlib-"
+      - "/usr/sbin/xc32-gcc-ranlib-"
+      - "/sbin/xc32-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-gcc-ranlib-"
+      - "/opt/pmk/env/global/bin/xc32-gcc-ranlib-"
+      - "/opt/X11/bin/xc32-gcc-ranlib-"
+      - "/Library/Apple/usr/bin/xc32-gcc-ranlib-"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-gcc-ranlib-"
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc-ranlib"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-gcc-ranlib"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-gcc-ranlib"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-gcc-ranlib"
+      - "/opt/homebrew/bin/xc32-gcc-ranlib"
+      - "/opt/homebrew/sbin/xc32-gcc-ranlib"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-gcc-ranlib"
+      - "/usr/local/bin/xc32-gcc-ranlib"
+      - "/System/Cryptexes/App/usr/bin/xc32-gcc-ranlib"
+      - "/usr/bin/xc32-gcc-ranlib"
+      - "/bin/xc32-gcc-ranlib"
+      - "/usr/sbin/xc32-gcc-ranlib"
+      - "/sbin/xc32-gcc-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-gcc-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-gcc-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-gcc-ranlib"
+      - "/opt/pmk/env/global/bin/xc32-gcc-ranlib"
+      - "/opt/X11/bin/xc32-gcc-ranlib"
+      - "/Library/Apple/usr/bin/xc32-gcc-ranlib"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-gcc-ranlib"
+      - "/Applications/microchip/xc32/v6.00/bin/xc32-gcc-ranlib"
+      - "/Users/chenaultellis/.gemini/antigravity/bin/xc32-gcc-ranlib"
+      - "/Users/chenaultellis/Library/Application Support/Antigravity/bin/xc32-gcc-ranlib"
+      - "/Users/chenaultellis/.juliaup/bin/xc32-gcc-ranlib"
+      - "/opt/homebrew/bin/xc32-gcc-ranlib"
+      - "/opt/homebrew/sbin/xc32-gcc-ranlib"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/xc32-gcc-ranlib"
+      - "/usr/local/bin/xc32-gcc-ranlib"
+      - "/System/Cryptexes/App/usr/bin/xc32-gcc-ranlib"
+      - "/usr/bin/xc32-gcc-ranlib"
+      - "/bin/xc32-gcc-ranlib"
+      - "/usr/sbin/xc32-gcc-ranlib"
+      - "/sbin/xc32-gcc-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/xc32-gcc-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/xc32-gcc-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xc32-gcc-ranlib"
+      - "/opt/pmk/env/global/bin/xc32-gcc-ranlib"
+      - "/opt/X11/bin/xc32-gcc-ranlib"
+      - "/Library/Apple/usr/bin/xc32-gcc-ranlib"
+      - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin/xc32-gcc-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/chenaultellis/.gemini/antigravity/bin"
+        - "/Users/chenaultellis/Library/Application Support/Antigravity/bin"
+        - "/Users/chenaultellis/.juliaup/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+        - "/Users/chenaultellis/cs107e_home/mycode/cs107e/bin"
+        - "/Applications/microchip/xc32/v6.00/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/chenaultellis/MPLABProjects/Lab2Projecto/build/CMakeFiles/CMakeScratch/TryCompile-qiW6MP"
+      binary: "/Users/chenaultellis/MPLABProjects/Lab2Projecto/build/CMakeFiles/CMakeScratch/TryCompile-qiW6MP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/Users/chenaultellis/MPLABProjects/Lab2Projecto/build/CMakeFiles/CMakeScratch/TryCompile-qiW6MP'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_280e5/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_280e5.dir/build.make CMakeFiles/cmTC_280e5.dir/build
+        Building C object CMakeFiles/cmTC_280e5.dir/CMakeCCompilerABI.c.obj
+        /Applications/microchip/xc32/v6.00/bin/xc32-gcc   -v -o CMakeFiles/cmTC_280e5.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Microchip Language Tool Shell Version 6.00 (Build date: Jun 23 2026)
+        Copyright (c) Microchip Technology Inc.  All rights reserved.
+        Using built-in specs.
+        COLLECT_GCC=/Applications/microchip/xc32/v6.00/bin/bin/pic32m-gcc
+        COLLECT_MCHP_XC_CCOV=/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/bin/xc-ccov
+        Target: pic32m
+        Configured with: /opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/src/gcc/configure --target=pic32m --prefix=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/opt --program-prefix=pic32m- --bindir=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/opt/bin/bin --infodir=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/opt/share/doc/xc32-pic32m-gcc/info --mandir=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/opt/share/doc/xc32-pic32m-gcc/man --libdir=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/opt/lib --libexecdir=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/opt/lib --disable-bootstrap --disable-decimal-float --disable-gdb --disable-libffi --disable-libfortran --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-maintainer-mode --disable-nls --disable-shared --disable-shared --disable-sim --disable-threads --disable-tm-clone-registry --enable-checking=release --enable-fixed-point --enable-gofast --enable-languages=c,c++ --enable-libstdcxx-static-eh-pool --enable-lto --enable-obsolete --enable-poison-system-directories --enable-sgxx-sde-multilibs --enable-sjlj-exceptions --enable-stage1-languages=c --enable-static --enable-target-optspace --enable-tls --with-bugurl=http://www.microchip.com/support --with-build-sysroot=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/opt/pic32m --with-dwarf2 --with-gmp=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/pic32m-build/opt --with-gnu-as --with-gnu-ld --with-host-libstdcxx='-static-libgcc -static-libstdc++ -Wl,-lstdc++ -lm' --with-libstdcxx-eh-pool-obj-count=0 --with-mchp=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/pic32m-build/opt --with-mpc=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/pic32m-build/opt --with-mpfr=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/pic32m-build/opt --with-musl --with-pkgversion='Microchip XC32 Compiler v6.00' --with-sysroot=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/opt/pic32m --without-cloog --without-headers --without-isl
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.1 20231009 (Microchip XC32 Compiler v6.00) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_280e5.dir/CMakeCCompilerABI.c.obj' '-c' '-fno-lto' '-march=pic32m' '-mtune=4kec' '-mabi=32' '-msoft-float' '-mips32r2' '-msynci' '-dumpdir' 'CMakeFiles/cmTC_280e5.dir/'
+         /Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/cc1 -quiet -v -iprefix /Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/ -isysroot /Applications/microchip/xc32/v6.00/bin/bin/../../pic32m /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -membedded-data -fno-asynchronous-unwind-tables -fno-dwarf2-cfi-asm -quiet -dumpdir CMakeFiles/cmTC_280e5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=pic32m -mtune=4kec -mabi=32 -msoft-float -mips32r2 -msynci -version -fno-lto -o /var/folders/qh/xtlvtnps1wv4w8l6xzxbkwzw0000gn/T//ccykINMI.s
+        GNU C17 (Microchip XC32 Compiler v6.00) version 13.2.1 20231009 (pic32m)
+        	compiled by GNU C version Apple LLVM 17.0.0 (clang-1700.0.13.3), GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/Applications/microchip/xc32/v6.00/bin/bin/../../pic32m/usr/local/include"
+        ignoring duplicate directory "/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/include"
+        ignoring duplicate directory "/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/../../lib/gcc/pic32m/13.2.1/include"
+        ignoring nonexistent directory "/Applications/microchip/xc32/v6.00/bin/bin/../../pic32m/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/include
+         /Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/include
+         /Applications/microchip/xc32/v6.00/bin/bin/../../pic32m/include/pic32m-libs
+         /Applications/microchip/xc32/v6.00/bin/bin/../../pic32m/include/musl
+        End of search list.
+        Compiler executable checksum: d9ae0fcb7b3787ee6f84ff25ea906323
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_280e5.dir/CMakeCCompilerABI.c.obj' '-c' '-fno-lto' '-march=pic32m' '-mtune=4kec' '-mabi=32' '-msoft-float' '-mips32r2' '-msynci' '-dumpdir' 'CMakeFiles/cmTC_280e5.dir/'
+         /Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/bin/as -v -EL -mips32r2 -O1 -mabi=32 -march=pic32m -mtune=4kec -msoft-float --trap -o CMakeFiles/cmTC_280e5.dir/CMakeCCompilerABI.c.obj /var/folders/qh/xtlvtnps1wv4w8l6xzxbkwzw0000gn/T//ccykINMI.s
+        GNU assembler version 2.41.0 (pic32m) using BFD version (Microchip XC32 Compiler v6.00) 2.41.0.20231009
+        COMPILER_PATH=/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/:/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/:/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/bin/:/Applications/microchip/xc32/v6.00/bin/bin/../
+        LIBRARY_PATH=/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/:/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/:/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib/:/Applications/microchip/xc32/v6.00/bin/bin/../../pic32m/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_280e5.dir/CMakeCCompilerABI.c.obj' '-c' '-fno-lto' '-march=pic32m' '-mtune=4kec' '-mabi=32' '-msoft-float' '-mips32r2' '-msynci' '-dumpdir' 'CMakeFiles/cmTC_280e5.dir/CMakeCCompilerABI.c.'
+        Linking C static library libcmTC_280e5.a
+        /opt/homebrew/bin/cmake -P CMakeFiles/cmTC_280e5.dir/cmake_clean_target.cmake
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_280e5.dir/link.txt --verbose=1
+        /Applications/microchip/xc32/v6.00/bin/xc32-ar qc libcmTC_280e5.a CMakeFiles/cmTC_280e5.dir/CMakeCCompilerABI.c.obj
+        /Applications/microchip/xc32/v6.00/bin/xc32-ranlib libcmTC_280e5.a
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/include]
+          add: [/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/include]
+          add: [/Applications/microchip/xc32/v6.00/bin/bin/../../pic32m/include/pic32m-libs]
+          add: [/Applications/microchip/xc32/v6.00/bin/bin/../../pic32m/include/musl]
+        end of search list found
+        collapse include dir [/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/include] ==> [/Applications/microchip/xc32/v6.00/pic32m/include]
+        collapse include dir [/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/include] ==> [/Applications/microchip/xc32/v6.00/lib/gcc/pic32m/13.2.1/include]
+        collapse include dir [/Applications/microchip/xc32/v6.00/bin/bin/../../pic32m/include/pic32m-libs] ==> [/Applications/microchip/xc32/v6.00/pic32m/include/pic32m-libs]
+        collapse include dir [/Applications/microchip/xc32/v6.00/bin/bin/../../pic32m/include/musl] ==> [/Applications/microchip/xc32/v6.00/pic32m/include/musl]
+        implicit include dirs: [/Applications/microchip/xc32/v6.00/pic32m/include;/Applications/microchip/xc32/v6.00/lib/gcc/pic32m/13.2.1/include;/Applications/microchip/xc32/v6.00/pic32m/include/pic32m-libs;/Applications/microchip/xc32/v6.00/pic32m/include/musl]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/Users/chenaultellis/MPLABProjects/Lab2Projecto/build/CMakeFiles/CMakeScratch/TryCompile-qiW6MP']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_280e5/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_280e5.dir/build.make CMakeFiles/cmTC_280e5.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_280e5.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/Applications/microchip/xc32/v6.00/bin/xc32-gcc   -v -o CMakeFiles/cmTC_280e5.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Microchip Language Tool Shell Version 6.00 (Build date: Jun 23 2026)]
+        ignore line: [Copyright (c) Microchip Technology Inc.  All rights reserved.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Applications/microchip/xc32/v6.00/bin/bin/pic32m-gcc]
+        ignore line: [COLLECT_MCHP_XC_CCOV=/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/bin/xc-ccov]
+        ignore line: [Target: pic32m]
+        ignore line: [Configured with: /opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/src/gcc/configure --target=pic32m --prefix=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/opt --program-prefix=pic32m- --bindir=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/opt/bin/bin --infodir=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/opt/share/doc/xc32-pic32m-gcc/info --mandir=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/opt/share/doc/xc32-pic32m-gcc/man --libdir=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/opt/lib --libexecdir=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/opt/lib --disable-bootstrap --disable-decimal-float --disable-gdb --disable-libffi --disable-libfortran --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-maintainer-mode --disable-nls --disable-shared --disable-shared --disable-sim --disable-threads --disable-tm-clone-registry --enable-checking=release --enable-fixed-point --enable-gofast --enable-languages=c,c++ --enable-libstdcxx-static-eh-pool --enable-lto --enable-obsolete --enable-poison-system-directories --enable-sgxx-sde-multilibs --enable-sjlj-exceptions --enable-stage1-languages=c --enable-static --enable-target-optspace --enable-tls --with-bugurl=http://www.microchip.com/support --with-build-sysroot=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/opt/pic32m --with-dwarf2 --with-gmp=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/pic32m-build/opt --with-gnu-as --with-gnu-ld --with-host-libstdcxx='-static-libgcc -static-libstdc++ -Wl,-lstdc++ -lm' --with-libstdcxx-eh-pool-obj-count=0 --with-mchp=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/pic32m-build/opt --with-mpc=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/pic32m-build/opt --with-mpfr=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/pic32m-build/opt --with-musl --with-pkgversion='Microchip XC32 Compiler v6.00' --with-sysroot=/opt/developer/svcjenkins/agent/workspace/XC32/release-XC32_6.00/Build-Darwin-PIC32M-11/build/opt/pic32m --without-cloog --without-headers --without-isl]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.2.1 20231009 (Microchip XC32 Compiler v6.00) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_280e5.dir/CMakeCCompilerABI.c.obj' '-c' '-fno-lto' '-march=pic32m' '-mtune=4kec' '-mabi=32' '-msoft-float' '-mips32r2' '-msynci' '-dumpdir' 'CMakeFiles/cmTC_280e5.dir/']
+        ignore line: [ /Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/cc1 -quiet -v -iprefix /Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/ -isysroot /Applications/microchip/xc32/v6.00/bin/bin/../../pic32m /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -membedded-data -fno-asynchronous-unwind-tables -fno-dwarf2-cfi-asm -quiet -dumpdir CMakeFiles/cmTC_280e5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=pic32m -mtune=4kec -mabi=32 -msoft-float -mips32r2 -msynci -version -fno-lto -o /var/folders/qh/xtlvtnps1wv4w8l6xzxbkwzw0000gn/T//ccykINMI.s]
+        ignore line: [GNU C17 (Microchip XC32 Compiler v6.00) version 13.2.1 20231009 (pic32m)]
+        ignore line: [	compiled by GNU C version Apple LLVM 17.0.0 (clang-1700.0.13.3)  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/Applications/microchip/xc32/v6.00/bin/bin/../../pic32m/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/include"]
+        ignore line: [ignoring duplicate directory "/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/../../lib/gcc/pic32m/13.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/microchip/xc32/v6.00/bin/bin/../../pic32m/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/include]
+        ignore line: [ /Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/include]
+        ignore line: [ /Applications/microchip/xc32/v6.00/bin/bin/../../pic32m/include/pic32m-libs]
+        ignore line: [ /Applications/microchip/xc32/v6.00/bin/bin/../../pic32m/include/musl]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: d9ae0fcb7b3787ee6f84ff25ea906323]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_280e5.dir/CMakeCCompilerABI.c.obj' '-c' '-fno-lto' '-march=pic32m' '-mtune=4kec' '-mabi=32' '-msoft-float' '-mips32r2' '-msynci' '-dumpdir' 'CMakeFiles/cmTC_280e5.dir/']
+        ignore line: [ /Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/bin/as -v -EL -mips32r2 -O1 -mabi=32 -march=pic32m -mtune=4kec -msoft-float --trap -o CMakeFiles/cmTC_280e5.dir/CMakeCCompilerABI.c.obj /var/folders/qh/xtlvtnps1wv4w8l6xzxbkwzw0000gn/T//ccykINMI.s]
+        ignore line: [GNU assembler version 2.41.0 (pic32m) using BFD version (Microchip XC32 Compiler v6.00) 2.41.0.20231009]
+        ignore line: [COMPILER_PATH=/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/:/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/:/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/bin/:/Applications/microchip/xc32/v6.00/bin/bin/../]
+        ignore line: [LIBRARY_PATH=/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/:/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/:/Applications/microchip/xc32/v6.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib/:/Applications/microchip/xc32/v6.00/bin/bin/../../pic32m/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_280e5.dir/CMakeCCompilerABI.c.obj' '-c' '-fno-lto' '-march=pic32m' '-mtune=4kec' '-mabi=32' '-msoft-float' '-mips32r2' '-msynci' '-dumpdir' 'CMakeFiles/cmTC_280e5.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C static library libcmTC_280e5.a]
+        ignore line: [/opt/homebrew/bin/cmake -P CMakeFiles/cmTC_280e5.dir/cmake_clean_target.cmake]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_280e5.dir/link.txt --verbose=1]
+        ignore line: [/Applications/microchip/xc32/v6.00/bin/xc32-ar qc libcmTC_280e5.a CMakeFiles/cmTC_280e5.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/Applications/microchip/xc32/v6.00/bin/xc32-ranlib libcmTC_280e5.a]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...

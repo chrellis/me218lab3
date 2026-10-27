@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/chenaultellis/MPLABProjects/lab2part5/_build/lab2part5/default",
+  "command": "/Applications/microchip/xc32/v6.00/bin/xc32-gcc -DXPRJ_default=default -D__DEBUG -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32MX170F256B -mdfp=/Users/chenaultellis/.mchp_packs/Microchip/PIC32MX_DFP/1.7.380 -o CMakeFiles/lab2part5_default_default_XC32_compile.dir/Users/chenaultellis/MPLABProjects/lab2part5/Lab2DriverMain.c.o -c /Users/chenaultellis/MPLABProjects/lab2part5/Lab2DriverMain.c",
+  "file": "/Users/chenaultellis/MPLABProjects/lab2part5/Lab2DriverMain.c",
+  "output": "/Users/chenaultellis/MPLABProjects/lab2part5/_build/lab2part5/default/CMakeFiles/lab2part5_default_default_XC32_compile.dir/Users/chenaultellis/MPLABProjects/lab2part5/Lab2DriverMain.c.o"
+},
+{
+  "directory": "/Users/chenaultellis/MPLABProjects/lab2part5/_build/lab2part5/default",
+  "command": "/Applications/microchip/xc32/v6.00/bin/xc32-gcc -DXPRJ_default=default -D__DEBUG -x c -fdiagnostics-color=always -g -x c -c -mprocessor=32MX170F256B -mdfp=/Users/chenaultellis/.mchp_packs/Microchip/PIC32MX_DFP/1.7.380 -o CMakeFiles/lab2part5_default_default_XC32_compile.dir/Users/chenaultellis/MPLABProjects/lab2part5/PIC32_SPI_HAL_Starter.c.o -c /Users/chenaultellis/MPLABProjects/lab2part5/PIC32_SPI_HAL_Starter.c",
+  "file": "/Users/chenaultellis/MPLABProjects/lab2part5/PIC32_SPI_HAL_Starter.c",
+  "output": "/Users/chenaultellis/MPLABProjects/lab2part5/_build/lab2part5/default/CMakeFiles/lab2part5_default_default_XC32_compile.dir/Users/chenaultellis/MPLABProjects/lab2part5/PIC32_SPI_HAL_Starter.c.o"
+}
+]

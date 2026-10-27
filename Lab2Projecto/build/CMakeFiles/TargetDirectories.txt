@@ -1,0 +1,3 @@
+/Users/chenaultellis/MPLABProjects/Lab2Projecto/build/CMakeFiles/Lab2Projecto.elf.dir
+/Users/chenaultellis/MPLABProjects/Lab2Projecto/build/CMakeFiles/edit_cache.dir
+/Users/chenaultellis/MPLABProjects/Lab2Projecto/build/CMakeFiles/rebuild_cache.dir

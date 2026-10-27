@@ -1,0 +1,32 @@
+# The following variables contains the files used by the different stages of the build process.
+set(Lab2Projecto_default_default_XC32_FILE_TYPE_assemble)
+set_source_files_properties(${Lab2Projecto_default_default_XC32_FILE_TYPE_assemble} PROPERTIES LANGUAGE ASM)
+
+# For assembly files, add "." to the include path for each file so that .include with a relative path works
+foreach(source_file ${Lab2Projecto_default_default_XC32_FILE_TYPE_assemble})
+        set_source_files_properties(${source_file} PROPERTIES INCLUDE_DIRECTORIES "$<PATH:NORMAL_PATH,$<PATH:REMOVE_FILENAME,${source_file}>>")
+endforeach()
+
+set(Lab2Projecto_default_default_XC32_FILE_TYPE_assembleWithPreprocess)
+set_source_files_properties(${Lab2Projecto_default_default_XC32_FILE_TYPE_assembleWithPreprocess} PROPERTIES LANGUAGE ASM)
+
+# For assembly files, add "." to the include path for each file so that .include with a relative path works
+foreach(source_file ${Lab2Projecto_default_default_XC32_FILE_TYPE_assembleWithPreprocess})
+        set_source_files_properties(${source_file} PROPERTIES INCLUDE_DIRECTORIES "$<PATH:NORMAL_PATH,$<PATH:REMOVE_FILENAME,${source_file}>>")
+endforeach()
+
+set(Lab2Projecto_default_default_XC32_FILE_TYPE_compile
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../Lab2Main.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../PIC32_SPI_HAL_Starter.c")
+set_source_files_properties(${Lab2Projecto_default_default_XC32_FILE_TYPE_compile} PROPERTIES LANGUAGE C)
+set(Lab2Projecto_default_default_XC32_FILE_TYPE_compile_cpp)
+set_source_files_properties(${Lab2Projecto_default_default_XC32_FILE_TYPE_compile_cpp} PROPERTIES LANGUAGE CXX)
+set(Lab2Projecto_default_default_XC32_FILE_TYPE_link)
+set(Lab2Projecto_default_image_name "default-production-production.elf")
+set(Lab2Projecto_default_image_base_name "default-production-production")
+
+# The output directory of the final image.
+set(Lab2Projecto_default_output_dir "${CMAKE_CURRENT_SOURCE_DIR}/../../../out/Lab2Projecto/production/production")
+
+# The full path to the final image.
+set(Lab2Projecto_default_full_path_to_image ${Lab2Projecto_default_output_dir}/${Lab2Projecto_default_image_name})

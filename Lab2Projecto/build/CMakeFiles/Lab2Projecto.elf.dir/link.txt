@@ -1,0 +1,1 @@
+/Applications/microchip/xc32/v6.00/bin/xc32-gcc -mprocessor=32MX170F256B -mdfp=/Users/chenaultellis/.mchp_packs/Microchip/PIC32MX_DFP/1.7.380 -Wl,--defsym=__MPLAB_BUILD=1 -Wl,--gc-sections -Wl,-Map=/Users/chenaultellis/MPLABProjects/Lab2Projecto/build/Lab2Projecto.map CMakeFiles/Lab2Projecto.elf.dir/SimMain.c.obj -o Lab2Projecto.elf

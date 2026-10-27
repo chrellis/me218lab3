@@ -1,0 +1,5 @@
+/Users/chenaultellis/MPLABProjects/lab2part5/_build/lab2part5/default/CMakeFiles/lab2part5_default_default_XC32_compile.dir
+/Users/chenaultellis/MPLABProjects/lab2part5/_build/lab2part5/default/CMakeFiles/lab2part5_default_image_tT2nz_YC.dir
+/Users/chenaultellis/MPLABProjects/lab2part5/_build/lab2part5/default/CMakeFiles/lab2part5_default_Bin2Hex.dir
+/Users/chenaultellis/MPLABProjects/lab2part5/_build/lab2part5/default/CMakeFiles/edit_cache.dir
+/Users/chenaultellis/MPLABProjects/lab2part5/_build/lab2part5/default/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="/Users/chenaultellis/MPLABProjects/Lab2Projecto/out/Lab2Projecto/production/production/production/default-production-production-production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>263312</length>                 
+      <used>9020</used>                     
+      <free>254292</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>65536</length>                 
+      <used>16</used>                     
+      <free>65520</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

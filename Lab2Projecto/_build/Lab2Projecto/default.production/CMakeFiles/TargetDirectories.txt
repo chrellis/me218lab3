@@ -1,0 +1,5 @@
+/Users/chenaultellis/MPLABProjects/Lab2Projecto/_build/Lab2Projecto/default.production/CMakeFiles/Lab2Projecto_default_default_XC32_compile.dir
+/Users/chenaultellis/MPLABProjects/Lab2Projecto/_build/Lab2Projecto/default.production/CMakeFiles/Lab2Projecto_default_image_nrFfEYMf.dir
+/Users/chenaultellis/MPLABProjects/Lab2Projecto/_build/Lab2Projecto/default.production/CMakeFiles/Lab2Projecto_default_Bin2Hex.dir
+/Users/chenaultellis/MPLABProjects/Lab2Projecto/_build/Lab2Projecto/default.production/CMakeFiles/edit_cache.dir
+/Users/chenaultellis/MPLABProjects/Lab2Projecto/_build/Lab2Projecto/default.production/CMakeFiles/rebuild_cache.dir
