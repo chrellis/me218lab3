@@ -273,6 +273,7 @@ bool DM_QueryRowData( uint8_t RowToQuery, uint32_t * pReturnValue)
 }
 
 
+
 //*********************************
 // private functions
 //*********************************
@@ -318,6 +319,46 @@ static void sendRow( uint8_t RowNum, DM_Row_t RowData )
     SPIOperate_SPI1_Send16Wait( 
                           ((((uint16_t)RowNum+1)<<8) | 
                               BitReverseTable256[(RowData.ByBytes[index])]));
+}
+
+int main(void);
+
+int main(void) {
+  if (!SPISetup_BasicConfig(SPI_SPI1) ||
+      !SPISetup_SetLeader(SPI_SPI1, SPI_SMP_MID) ||
+      !SPISetup_SetClockIdleState(SPI_SPI1, SPI_CLK_HI) ||
+      !SPISetup_SetActiveEdge(SPI_SPI1, SPI_SECOND_EDGE) ||
+      !SPISetup_SetXferWidth(SPI_SPI1, SPI_16BIT) ||
+      !SPISetEnhancedBuffer(SPI_SPI1, true) ||
+      !SPISetup_SetBitTime(SPI_SPI1, 10000) ||
+      !SPISetup_MapSSOutput(SPI_SPI1, SPI_RPA0) ||
+      !SPISetup_MapSDOutput(SPI_SPI1, SPI_RPA1) ||
+      !SPISetup_EnableSPI(SPI_SPI1)) {
+    while (1) { }
+  }
+
+  DM_ClearDisplayBuffer();
+  while(!DM_TakeInitDisplayStep());
+  uint8_t currRow = 0;
+  DM_PutDataIntoBufferRow(0x1, currRow); //load up the corner
+  DM_Row_t currPattern = {.FullRow = 0x1};
+  DM_Row_t zeroRow = {.FullRow = 0x0};
+  //sendRow(currRow, currPattern);
+
+  while(1){
+    //per row
+    for(int i = 0; i < 32; i++){ //
+      sendRow(currRow, currPattern);
+      DM_Display[currRow].FullRow = DM_Display[currRow].FullRow << 1; 
+      currPattern = DM_Display[currRow];
+      for(volatile int delay = 0; delay < 1e5; delay++){};
+    }
+    sendRow(currRow, zeroRow);
+    if(currRow == 7) currRow = 0;
+    else currRow++;
+    currPattern.FullRow = 0x1;
+    DM_PutDataIntoBufferRow(currPattern.FullRow, currRow);
+  }
 }
 
 
